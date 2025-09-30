@@ -6,7 +6,7 @@ int main() {
 
     for (int i = 1; i <= T; i++) {
         int A, B, C;
-        scanf("%d %d %d", &A, &B, &C);
+        scanf("%d %d %d", &A, &B, &c);
 
         // Hitung cashback: (B% dari A)
         int cashback = (A * B) / 100;
