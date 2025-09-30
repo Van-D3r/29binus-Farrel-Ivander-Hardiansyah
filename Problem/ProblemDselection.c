@@ -6,14 +6,14 @@ int main() {
 
     for (int i = 1; i <= T; i++) {
         int A, B, C;
-        scanf("%d %d %d", &A, &B, &c);
+        scanf("%d %d %d", &A, &B, &C);
 
         // Hitung cashback: (B% dari A)
         int cashback = (A * B) / 100;
 
         // Jika cashback lebih besar dari maksimum, pakai maksimum
         if (cashback > C) {
-            cashback = C;
+            cashback = c;
         }
 
         // Cetak hasil
