@@ -13,7 +13,7 @@ int main() {
 
         // Jika cashback lebih besar dari maksimum, pakai maksimum
         if (cashback > C) {
-            cashback = c;
+            cashback = C;
         }
 
         // Cetak hasil
