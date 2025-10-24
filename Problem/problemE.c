@@ -8,9 +8,9 @@ int main() {
 
     scanf("%s", id);            
     getchar();                  
-    //fgets(name, sizeof(name), stdin);  
+    fgets(name, sizeof(name), stdin);  
     scanf(" %c %d", &class, &num); 
-    scanf(" %[^\n]",name, class);    
+        
 
     
     int i = 0;
