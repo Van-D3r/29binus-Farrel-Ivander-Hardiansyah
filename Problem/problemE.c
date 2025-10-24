@@ -10,7 +10,7 @@ int main() {
     getchar();                  
     //fgets(name, sizeof(name), stdin);  
     scanf(" %c %d", &class, &num); 
-    scanf(" %[^\n]");    
+    scanf(" %[^\n]",name, class);    
 
     
     int i = 0;
