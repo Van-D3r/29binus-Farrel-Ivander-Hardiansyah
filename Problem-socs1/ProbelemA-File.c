@@ -62,7 +62,6 @@ int main() {
     getcwd(cwd, sizeof(cwd));
     printf("📁 Current folder: %s\n\n", cwd);
     
-    // Coba buka file
     FILE *file = fopen("problemAfile.in", "r");
     if (file == NULL) {
         printf("File problemAfile.in tidak ditemukan di:\n");
