@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(){
 
-    FILE *p;
-    p = fopen("tessdata.txt", "w");
+    FILE *fptr;
+    fptr = fopen("tessdata.txt", "w");
     
 
 
